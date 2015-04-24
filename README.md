@@ -1,4 +1,3 @@
-# vineet911
 makeCacheMatrix <- function(x = matrix()) {
 
       xinv <- NULL # this is where the result of inversion is stored
@@ -45,3 +44,9 @@ makeCacheMatrix <- function(x = matrix()) {
   # generate the makeCacheMatrix object with this matrix
   testCached <- makeCacheMatrix(test)
   # from now on calculate or retrieve calculated inversion using the cacheSolve function
+
+  testInv <- cacheSolve(testCached)
+  testInv <- cacheSolve(testCached)
+  testInv <- cacheSolve(testCached)
+  testInv <- cacheSolve(testCached)
+  testInv <- cacheSolve(testCached)
